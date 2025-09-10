@@ -15,7 +15,11 @@ fn main(){
         if num < min{
             min = num;
         }
+        mean += num as f64;
     }
 
     mean /= numbers.len() as f64;
+
+   
 }
+ 
